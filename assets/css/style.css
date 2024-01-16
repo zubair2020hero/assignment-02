@@ -107,11 +107,14 @@ body {
 .menu .main_menu {
     display: flex;
     gap: 44px;
+    justify-content: flex-end;
 }
 
 .menu .main_menu li a {
     font-size: 18px;
     font-weight: 400;
+    cursor: pointer;
+    transition: 0.3s;
 }
 
 .menu .main_menu li a:focus,
@@ -127,4 +130,75 @@ body {
 
 .menu_toggle {
     display: none;
+}
+
+/* Banner Area */
+
+.banner_area {
+    background-image: url("../images/banner.png");
+    background-size: 1170px 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* border-radius: 16px; */
+    padding: 100px
+}
+
+.banner_area .banner_title h1 {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.banner_area .banner_title p {
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 48px;
+}
+
+.banner_form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    width: 798px;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+.banner_form form {
+    display: flex;
+    gap: 24px;
+}
+
+.banner_form form select,
+.banner_form form input {
+    border-style: none;
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    padding-left: 18px;
+}
+
+.banner_form form a {
+    width: 174px;
+    height: 52px;
+    padding: 16px 35px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.banner_form form a:hover {
+  background-color: transparent;
+  border: 2px solid #FF5400;
 }
