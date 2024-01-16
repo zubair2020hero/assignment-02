@@ -17,13 +17,13 @@ li {
 
 body {
     font-size: 16px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Mulish', sans-serif;
     color: #222;
 }
 
 /* Common Selector */
 .container {
-    max-width: 1140px;
+    max-width: 1170px;
     margin: 0 auto;
 }
 
@@ -82,4 +82,49 @@ body {
 
 .col_12 {
     width: 100%;
+}
+
+/* Header Area */
+
+.header {
+    margin: 50px 0;
+}
+
+.logo {
+    display: flex;
+    gap: 13px;
+}
+
+.logo h1 {
+    font-weight: 800;
+    font-size: 36px;
+}
+
+.logo h1 span {
+    color: #FF5400;
+}
+
+.menu .main_menu {
+    display: flex;
+    gap: 44px;
+}
+
+.menu .main_menu li a {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.menu .main_menu li a:focus,
+.menu .main_menu li a:hover {
+    font-weight: 700;
+    color: #FF5400;
+}
+
+/* Mobile Menu */
+#menuToggle {
+    display: none;
+}
+
+.menu_toggle {
+    display: none;
 }
