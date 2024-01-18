@@ -202,7 +202,7 @@
 
     .destination_gallery {
         flex-direction: column;
-        margin: 0 0 0 5px;
+        text-align: center;
     }
 
     div.img7 img,
@@ -212,8 +212,9 @@
     div.img3 img,
     div.img2 img,
     div.img1 img {
-        width: 250px;
-        height: 150px;
+        width: 335px;
+        height: 176px;
+        margin-bottom: 10px !important;
     }
 
     .destination_gallery img {
