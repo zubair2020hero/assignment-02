@@ -289,44 +289,44 @@ body {
     display: flex;
 }
 
-.img1 {
-    width: 450px;
-    height: 300px;
-    margin: 0 145px 24px 0;
-}
-
-.img2 {
-    width: 450px;
-    height: 300px;
-    margin: 0 0;
-}
-
-.img3 {
-    width: 250px;
-    height: 286px;
-    margin: 0 145px 24px 0;
-}
-
-.img4 {
-    width: 350px;
-    height: 286px;
-    margin: 0 145px 24px 0;
-}
-
-.img5 {
-    width: 150px;
-    height: 286px;
-    margin: 0 0;
-}
-
-.img6 {
-    width: 350px;
-    height: 300px;
-    margin: 0 145px 24px 0;
-}
-
-.img7 {
+div.img1 img {
     width: 550px;
+    height: 300px;
+    margin: 0 31px 24px 0;
+}
+
+div.img2 img {
+    width: 550px;
+    height: 300px;
+    margin: 0 0;
+}
+
+div.img3 img {
+    width: 350px;
+    height: 286px;
+    margin: 0 31px 24px 0;
+}
+
+div.img4 img{
+    width: 450px;
+    height: 286px;
+    margin: 0 31px 24px 0;
+}
+
+div.img5 img {
+    width: 266px;
+    height: 286px;
+    margin: 0 0;
+}
+
+div.img6 img {
+    width: 450px;
+    height: 300px;
+    margin: 0 31px 24px 0;
+}
+
+div.img7 img{
+    width: 650px;
     height: 300px;
     margin: 0 0;
 }
