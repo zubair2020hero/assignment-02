@@ -176,14 +176,11 @@
     .popular_tours_img img {
         width: 335px;
         height: 344px;
-        margin: 54px 0 0 -77px;
+        margin: 54px -58px 0 -77px;
     }
 
     /* Destination Area */
 
-    .destination_area {
-        margin: 100px 0;
-    }
 
     .destination_title {
         text-align: center;
@@ -203,6 +200,7 @@
     .destination_gallery {
         flex-direction: column;
         text-align: center;
+        margin: 0 0 0 -31px;
     }
 
     div.img7 img,
@@ -221,4 +219,69 @@
         margin: 0 !important;
     }
 
+    /*  Why Choose Us Area */
+
+    .why_choose_us_title {
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 48px;
+    }
+
+    .why_choose_us_title h2 {
+        font-size: 20px;
+    }
+
+    .why_choose_us_title p {
+        font-size: 14px;
+    }
+
+    .why_choose_us_box {
+        flex-direction: column;
+        margin: 0 0 24px -48px;
+    }
+
+    .why_choose_us_item_3,
+    .why_choose_us_item_2,
+    .why_choose_us_item_1 {
+        width: 435px;
+        height: 306px;
+    }
+
+    .why_choose_us_item_1 {
+        border-radius: 16px;
+        border: 1px solid rgba(251, 181, 99, 0.20);
+        background: rgba(251, 181, 99, 0.05);
+    }
+
+    .why_choose_us_item_2 {
+        border-radius: 16px;
+        border: 1px solid rgba(41, 206, 246, 0.20);
+        background: rgba(41, 206, 246, 0.05);
+    }
+
+    .why_choose_us_item_3 {
+        border-radius: 16px;
+        border: 1px solid rgba(233, 68, 68, 0.20);
+        background: rgba(233, 68, 68, 0.05);
+    }
+
+    .why_choose_us_item_3 img,
+    .why_choose_us_item_2 img,
+    .why_choose_us_item_1 img {
+        width: 64px;
+        height: 64px;
+        margin-bottom: 32px;
+    }
+
+    .why_choose_us_item_3 h3,
+    .why_choose_us_item_2 h3,
+    .why_choose_us_item_1 h3 {
+        font-size: 20px;
+    }
+
+    .why_choose_us_item_3 p,
+    .why_choose_us_item_2 p,
+    .why_choose_us_item_1 p {
+        font-size: 14px;
+    }
 }

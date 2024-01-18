@@ -259,6 +259,7 @@ body {
 .popular_tours_img img {
     width: 540px;
     height: 550px;
+    float: right;
 }
 
 /* Destination Area */
@@ -308,7 +309,7 @@ div.img3 img {
     margin: 0 31px 24px 0;
 }
 
-div.img4 img{
+div.img4 img {
     width: 450px;
     height: 286px;
     margin: 0 31px 24px 0;
@@ -326,8 +327,94 @@ div.img6 img {
     margin: 0 31px 24px 0;
 }
 
-div.img7 img{
+div.img7 img {
     width: 650px;
     height: 300px;
     margin: 0 0;
+}
+
+/* Why Choose Us Area */
+
+.why_choose_us_area {
+    margin: 100px 0;
+}
+
+.why_choose_us_title {
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 48px;
+}
+
+.why_choose_us_title h2 {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.why_choose_us_title p {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.why_choose_us_box {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin: 0 0 24px 0;
+}
+
+.why_choose_us_item_3,
+.why_choose_us_item_2,
+.why_choose_us_item_1 {
+    width: 573px;
+    height: 284px;
+    padding: 32px;
+}
+
+.why_choose_us_item_1 {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.why_choose_us_item_2 {
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.why_choose_us_item_3 {
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+}
+
+.why_choose_us_item_3 img,
+.why_choose_us_item_2 img,
+.why_choose_us_item_1 img {
+    width: 64px;
+    height: 64px;
+    margin-bottom: 32px;
+}
+
+.why_choose_us_item_3 h3,
+.why_choose_us_item_2 h3,
+.why_choose_us_item_1 h3 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 16px;
+}
+
+.why_choose_us_item_3 p,
+.why_choose_us_item_2 p,
+.why_choose_us_item_1 p {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 32px;
 }
