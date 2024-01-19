@@ -62,6 +62,9 @@
     }
 
     /* Header Area */
+    .header {
+        margin: 50px 0 50px -173px;
+    }
 
     .logo img {
         width: 30px;
@@ -80,27 +83,38 @@
         display: block;
         max-height: 0;
         overflow: hidden;
-        transition: max-height 0.3s;
-    }
-
-    .menu .main_menu li a {
         position: relative;
-        text-align: center;
+        transition: max-height 0.3s;
+        background: #FF5400;
     }
-
+    .menu .main_menu li {
+        margin: 15px 0 15px 0;
+        background: #FF5400;
+        padding: 0 0;
+        display: flex;
+        justify-content: center;
+        padding: 1px 58px;
+    }
+    .menu .main_menu a {
+        color: #fff;
+    }
+    .menu .main_menu a:hover {
+        color: #222 !important;
+    }
     .menu_toggle {
         display: block;
         position: absolute;
         top: 35px;
-        right: 15%;
+        right: 22%;
         line-height: 60px;
         font-size: 30px;
     }
-
+   
     #menuToggle:checked~ul {
         max-height: 500px;
+        position: absolute;
+        margin: 10px 0 0 130px;
     }
-
     /* Banner Area */
 
     .banner_area {
@@ -299,10 +313,12 @@
         border: 1px solid #FF5400;
         padding: 40px;
     }
+
     .newsletter_form {
         height: 403px;
         margin-bottom: 27px;
     }
+
     .newsletter_form h3 {
         color: #131318;
         font-size: 24px;
@@ -350,6 +366,5 @@
     .newsletter_img .discount h3 {
         font-size: 21.138px;
     }
-    /* Footer Area */
-    
+
 }
