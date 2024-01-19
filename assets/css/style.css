@@ -418,3 +418,87 @@ div.img7 img {
     line-height: 26px;
     margin-bottom: 32px;
 }
+
+/* Newsletter Area */
+.newsletter_area {
+    margin: 100px 0;
+}
+
+.newsletter_form {
+    width: 474px;
+    height: 422px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    padding: 40px;
+}
+
+.newsletter_form h3 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 16px;
+}
+
+.newsletter_form p {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 38px;
+}
+
+.newsletter_form form input {
+    width: 393px;
+    height: 52px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    padding: 24px;
+    margin: 8px 0;
+    border-style: none;
+}
+
+.newsletter_form form a {
+    position: absolute;
+    padding: 16px 150px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.3s;
+    margin: 7px 0 0 0;
+    color: #FFF;
+    font-size: 20px;
+}
+
+.newsletter_form form a:hover {
+    background-color: transparent;
+    border: 2px solid #FF5400;
+    color: #131318;
+}
+
+.newsletter_img .discount {
+    position: absolute;
+    z-index: 9999;
+    margin: -168px 0 0 316px;
+    padding: 16px 50px;
+    transform: rotate(-19.628deg);
+    text-align: center;
+    border-radius: 16px;
+    background: #FF5400;
+}
+
+.newsletter_img .discount h6 {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.newsletter_img .discount h3 {
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+    /* Footer Area */

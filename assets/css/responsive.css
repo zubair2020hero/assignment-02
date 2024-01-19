@@ -284,4 +284,72 @@
     .why_choose_us_item_1 p {
         font-size: 14px;
     }
+
+    /* Newsletter Area */
+    .newsletter_area .row {
+        flex-direction: column;
+        justify-content: center;
+        align-items: baseline;
+    }
+
+    .newsletter_form {
+        width: 335px;
+        height: 353px;
+        border-radius: 16px;
+        border: 1px solid #FF5400;
+        padding: 40px;
+    }
+    .newsletter_form {
+        height: 403px;
+        margin-bottom: 27px;
+    }
+    .newsletter_form h3 {
+        color: #131318;
+        font-size: 24px;
+        font-weight: 800;
+        margin-bottom: 16px;
+    }
+
+    .newsletter_form p {
+        color: #5A5A5D;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        margin-bottom: 38px;
+    }
+
+    .newsletter_form form input {
+        width: 256px;
+        height: 52px;
+        border-radius: 8px;
+        background: rgba(19, 19, 24, 0.05);
+        padding: 24px;
+        margin: 8px 0;
+        border-style: none;
+    }
+
+    .newsletter_form form a {
+        padding: 16px 90px;
+        font-size: 16px;
+    }
+
+    .newsletter_img img {
+        width: 335px;
+        height: 300px;
+    }
+
+    .newsletter_img .discount {
+        margin: -125px 0 0 70px;
+        transform: rotate(-19.628deg);
+    }
+
+    .newsletter_img .discount h6 {
+        font-size: 15.854px;
+    }
+
+    .newsletter_img .discount h3 {
+        font-size: 21.138px;
+    }
+    /* Footer Area */
+    
 }
